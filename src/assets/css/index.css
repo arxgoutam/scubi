@@ -518,7 +518,7 @@ button {
 }
 @media only screen and (max-width: 500px) {
   .roadmap .roadmap-side-img img {
-    width: 300px;
+    width: 250px;
   }
 }
 
@@ -603,6 +603,11 @@ button {
   text-align: center;
   width: 70%;
   margin: 20px 0;
+}
+@media only screen and (max-width: 900px) {
+  .community .container .community-box .community-content p {
+    width: 100%;
+  }
 }
 .community .container .community-box .community-side-img-1 {
   position: absolute;
