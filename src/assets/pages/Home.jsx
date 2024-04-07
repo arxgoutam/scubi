@@ -676,13 +676,7 @@ const Home = () => {
             </p>
           </div>
           <div className="roadmap-con">
-            <div
-              className="roabmap-box-1"
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="500"
-              data-aos-easing="ease-in-sine"
-            >
+            <div className="roabmap-box-1" data-aos="fade-up">
               <img src="/images/roadmap-pashe-bon.png" alt="" />
               <div className="roadmap-info-1">
                 <p>Quarter 1 - 2024</p>
@@ -697,13 +691,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="roabmap-box-2"
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-delay="500"
-              data-aos-easing="ease-in-sine"
-            >
+            <div className="roabmap-box-2" data-aos="fade-up">
               <div className="roadmap-info-2">
                 <p>Quarter 2</p>
                 <h3>Game release</h3>
@@ -714,13 +702,7 @@ const Home = () => {
               </div>
               <img src="/images/roadmap-pashe-bon.png" alt="" />
             </div>
-            <div
-              className="roabmap-box-1"
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-delay="500"
-              data-aos-easing="ease-in-sine"
-            >
+            <div className="roabmap-box-1" data-aos="fade-up">
               <img src="/images/roadmap-pashe-bon.png" alt="" />
               <div className="roadmap-info-1">
                 <p>Quarter 3</p>
@@ -732,13 +714,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div
-              className="roabmap-box-2"
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-delay="500"
-              data-aos-easing="ease-in-sine"
-            >
+            <div className="roabmap-box-2" data-aos="fade-up">
               <div className="roadmap-info-2">
                 <p>Quarter 4 - 2025</p>
                 <h3>To the moon</h3>
