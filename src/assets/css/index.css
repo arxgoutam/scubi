@@ -87,18 +87,13 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-@media only screen and (max-width: 600px) {
-  .hero .container .nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-}
 .hero .container .nav .logo {
   width: 200px;
 }
 @media only screen and (max-width: 600px) {
   .hero .container .nav .logo {
     margin-bottom: 30px;
+    width: 100px;
   }
 }
 .hero .container .nav .logo img {
@@ -114,6 +109,17 @@ button {
 }
 .hero .container .nav .nav-right .socials a {
   margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .hero .container .nav .nav-right .socials a img {
+    width: 30px;
+    margin-bottom: 28px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero .container .nav .nav-right button {
+    display: none;
+  }
 }
 .hero .container .hero-container {
   display: flex;
@@ -142,6 +148,11 @@ button {
   display: flex;
   align-items: center;
   padding: 10px 0;
+}
+@media only screen and (max-width: 600px) {
+  .hero .container .hero-container .hero-left .contract-box .address {
+    flex-direction: column;
+  }
 }
 .hero .container .hero-container .hero-left .contract-box .address p {
   color: #f28c4c;

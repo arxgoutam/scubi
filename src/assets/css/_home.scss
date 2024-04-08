@@ -9,14 +9,12 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      @media only screen and (max-width: 600px) {
-        flex-direction: column;
-        justify-content: center;
-      }
+
       .logo {
         width: 200px;
         @media only screen and (max-width: 600px) {
           margin-bottom: 30px;
+          width: 100px;
         }
         img {
           width: 100%;
@@ -30,6 +28,17 @@
           margin-right: 20px;
           a {
             margin-left: 10px;
+            img {
+              @media only screen and (max-width: 600px) {
+                width: 30px;
+                margin-bottom: 28px;
+              }
+            }
+          }
+        }
+        button {
+          @media only screen and (max-width: 600px) {
+            display: none;
           }
         }
       }
@@ -58,6 +67,9 @@
             display: flex;
             align-items: center;
             padding: 10px 0;
+            @media only screen and (max-width: 600px) {
+              flex-direction: column;
+            }
             p {
               color: $primary-color;
               @media only screen and (max-width: 600px) {
