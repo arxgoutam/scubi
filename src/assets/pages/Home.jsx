@@ -51,6 +51,9 @@ const Home = () => {
   return (
     <div>
       {/* ---------Hero Section----------  */}
+      <div className="background-container">
+        <div className="background-animation"></div>
+      </div>
       <section className="hero">
         <div className="container">
           <div className="nav">
@@ -857,6 +860,10 @@ const Home = () => {
           </div>
         </div>
       </footer>
+
+      <div className="background-container">
+        <div className="background-animation"></div>
+      </div>
     </div>
   );
 };
