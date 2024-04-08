@@ -860,10 +860,6 @@ const Home = () => {
           </div>
         </div>
       </footer>
-
-      <div className="background-container">
-        <div className="background-animation"></div>
-      </div>
     </div>
   );
 };
