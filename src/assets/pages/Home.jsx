@@ -71,7 +71,7 @@ const Home = () => {
             </div>
             <div className="nav-right">
               <div className="socials">
-                <a href="https://twitter.com/ScubiWeb3" target="_blank">
+                <a href="https://t.me/ScubiWeb3gamechat" target="_blank">
                   <img src="/images/social-1.png" alt="X" />
                 </a>
                 <a href="https://t.me/scubiweb3game" target="_blank">
