@@ -8,27 +8,26 @@ AOS.init();
 const data = {
   rows: [
     {
-      title: "Lorem ipsum dolor sit amet,",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+      title: "What are Scubi's vision and goals?",
+      content: `Scubi builds the largest web3 game publishing platform on the TON blockchain.
+$SCUBI builds an innovative web3 game publishing platform on the Ton blockchain platform. Where game designers and web3 game studios can release their games to the community the fastest and with the fewest resources, attracting the largest number of users in the shortest amount of time.`,
     },
     {
-      title: "Nunc maximus, magna at ultricies elementum",
+      title: "How is Scubi's community orientation determined?",
       content:
-        "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+        "35% $SCUBI is the native token of Scubi that will be released to the community through a fair launch program on tonraffles.app. Additionally, 5% of $SCUBI will be airdropped to the community who most actively promote this project.",
     },
     {
-      title: "Curabitur laoreet, mauris vel blandit fringilla",
-      content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+      title: "What is the Scubi fair launch program?",
+      content: `The Scubi project will release a one-time total supply of 35% of $SCUBI tokens to the community through a fair launch program on tonraffles.app. The official opening date of the fair will be announced later, please visit our official website regularly for updated information.`,
     },
     {
-      title: "What is the package version",
-      content: <p>current version is 1.2.1</p>,
+      title: "What is the Scubi NFT Collection?",
+      content: `Scubi releases a collection 10,000 characters NFT. These are characters in Scubi's web3 game ecosystem, the owners of these potential NFT characters will be used for exchange on the marketplace.`,
+    },
+    {
+      title: "I am a VC; how can I get involved with Scubi?",
+      content: `For potential VC Partners, please contact our team to schedule an informational session and meet them. For companies interested in investment, please apply here!`,
     },
   ],
 };
@@ -56,7 +55,7 @@ const Home = () => {
       </div>
       <section className="hero">
         <div className="container">
-          <div className="nav">
+          <div className="nav" data-aos="fade-up">
             <div className="logo">
               <a href="/">
                 <img src="/images/logo-2.png" alt="logo" />
@@ -64,14 +63,11 @@ const Home = () => {
             </div>
             <div className="nav-right">
               <div className="socials">
-                <a href="" target="_blank">
+                <a href="https://twitter.com/ScubiWeb3" target="_blank">
                   <img src="/images/social-1.png" alt="X" />
                 </a>
-                <a href="" target="_blank">
+                <a href="https://t.me/scubiweb3game" target="_blank">
                   <img src="/images/social-2.png" alt="Telegram" />
-                </a>
-                <a href="" target="_blank">
-                  <img src="/images/social-3.png" alt="Discord" />
                 </a>
               </div>
               <button className="primary-btn">Buy Scubi</button>
@@ -189,47 +185,40 @@ const Home = () => {
       <section className="nft-slider">
         <div className="slides">
           <div className="slide">
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
+            <img src="/images/nft/1.png" alt="" />
+            <img src="/images/nft/2.png" alt="" />
+            <img src="/images/nft/3.png" alt="" />
+            <img src="/images/nft/4.png" alt="" />
+            <img src="/images/nft/5.png" alt="" />
+            <img src="/images/nft/6.png" alt="" />
+            <img src="/images/nft/7.png" alt="" />
           </div>
-
           <div className="slide">
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
+            <img src="/images/nft/8.png" alt="" />
+            <img src="/images/nft/9.png" alt="" />
+            <img src="/images/nft/10.png" alt="" />
+            <img src="/images/nft/11.png" alt="" />
+            <img src="/images/nft/12.png" alt="" />
+            <img src="/images/nft/13.png" alt="" />
+            <img src="/images/nft/14.png" alt="" />
           </div>
-
           <div className="slide">
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
+            <img src="/images/nft/15.png" alt="" />
+            <img src="/images/nft/16.png" alt="" />
+            <img src="/images/nft/17.png" alt="" />
+            <img src="/images/nft/18.png" alt="" />
+            <img src="/images/nft/19.png" alt="" />
+            <img src="/images/nft/20.png" alt="" />
+            <img src="/images/nft/21.png" alt="" />
           </div>
-
           <div className="slide">
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
-            <img src="/images/buy-1.png" alt="" />
+            <img src="/images/nft/22.png" alt="" />
+            <img src="/images/nft/23.png" alt="" />
+            <img src="/images/nft/24.png" alt="" />
+            <img src="/images/nft/25.png" alt="" />
+            <img src="/images/nft/26.png" alt="" />
+            <img src="/images/nft/27.png" alt="" />
+            <img src="/images/nft/28.png" alt="" />
           </div>
         </div>
       </section>
@@ -682,7 +671,7 @@ const Home = () => {
             <div className="roabmap-box-1" data-aos="fade-up">
               <img src="/images/roadmap-pashe-bon.png" alt="" />
               <div className="roadmap-info-1">
-                <p>Quarter 1 - 2024</p>
+                <p>Quarter 1 & 2 - 2024</p>
                 <h3>Come up with ideas and build a technology platform</h3>
                 <p>
                   <strong>Fair Launch: </strong> We focus on the technology
@@ -696,7 +685,7 @@ const Home = () => {
             </div>
             <div className="roabmap-box-2" data-aos="fade-up">
               <div className="roadmap-info-2">
-                <p>Quarter 2</p>
+                <p>Quarter 3 - 2024</p>
                 <h3>Game release</h3>
                 <p>
                   First release of innovative web3 game on TON blockchain
@@ -708,7 +697,7 @@ const Home = () => {
             <div className="roabmap-box-1" data-aos="fade-up">
               <img src="/images/roadmap-pashe-bon.png" alt="" />
               <div className="roadmap-info-1">
-                <p>Quarter 3</p>
+                <p>Quarter 4 - 2024</p>
                 <h3>Scubi Platform Beta</h3>
                 <p>
                   Scubi platform beta version with many interesting features
@@ -719,7 +708,7 @@ const Home = () => {
             </div>
             <div className="roabmap-box-2" data-aos="fade-up">
               <div className="roadmap-info-2">
-                <p>Quarter 4 - 2025</p>
+                <p>Quarter 1 - 2025</p>
                 <h3>To the moon</h3>
                 <p>
                   Release Scubi Platform official version. Many features support
@@ -791,10 +780,10 @@ const Home = () => {
             <div className="community-content">
               <h2>JOIN COMMUNITY</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form.
+                Welcome Scubi! <br />
+                Let’s begin the adventure
               </p>
-              <a href="">
+              <a href="https://t.me/scubiweb3game" target="_blank">
                 <svg
                   width="210"
                   height="65"
@@ -847,14 +836,11 @@ const Home = () => {
           </div>
           <div className="f-right">
             <div className="socials">
-              <a href="" target="_blank">
+              <a href="https://twitter.com/ScubiWeb3" target="_blank">
                 <img src="/images/social-1.png" alt="X" />
               </a>
-              <a href="" target="_blank">
+              <a href="https://t.me/scubiweb3game" target="_blank">
                 <img src="/images/social-2.png" alt="Telegram" />
-              </a>
-              <a href="" target="_blank">
-                <img src="/images/social-3.png" alt="Discord" />
               </a>
             </div>
           </div>
