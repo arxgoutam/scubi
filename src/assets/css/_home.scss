@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   .container {
+    z-index: 100;
     .nav {
       display: flex;
       justify-content: space-between;

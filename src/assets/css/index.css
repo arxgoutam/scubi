@@ -82,6 +82,9 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.hero .container {
+  z-index: 100;
+}
 .hero .container .nav {
   display: flex;
   justify-content: space-between;
