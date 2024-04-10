@@ -50,9 +50,9 @@ const Home = () => {
   return (
     <div>
       {/* ---------Hero Section----------  */}
-      <div className="background-container">
+      {/* <div className="background-container">
         <div className="background-animation"></div>
-      </div>
+      </div> */}
       <section className="hero">
         <div className="container">
           <div className="nav" data-aos="fade-up">
@@ -846,6 +846,15 @@ const Home = () => {
           </div>
         </div>
       </footer>
+
+      <div class="signup-space">
+        <div class="signup-stars"></div>
+        <div class="signup-stars"></div>
+        <div class="signup-stars"></div>
+        <div class="signup-stars"></div>
+        <div class="signup-stars"></div>
+        <div class="signup-stars"></div>
+      </div>
     </div>
   );
 };
