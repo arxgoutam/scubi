@@ -28,7 +28,7 @@ const getTimeDays = (time) => (time / daySeconds) | 0;
 
 export default function Timer() {
   const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
-  const endTime = stratTime + 3.629e+6; // use UNIX timestamp in seconds
+  const endTime = stratTime + 4.493e+6; // use UNIX timestamp in seconds
 
   const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);
