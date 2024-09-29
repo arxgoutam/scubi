@@ -2,8 +2,10 @@ import AOS from "aos";
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import Timer from "../components/Timer";
+
 AOS.init();
+
 
 const data = {
   rows: [
@@ -47,6 +49,7 @@ const config = {
 };
 
 const Home = () => {
+
   return (
     <div>
       {/* ---------Hero Section----------  */}
@@ -88,8 +91,12 @@ const Home = () => {
               <p>
                 The largest platform publishing web3 games on the TON blockchain
               </p>
+              {/* Timer */}
+              <Timer/>
+
+              <h3 style={{marginTop: "30px"}}>Join Fair Launch</h3>
               <button className="primary-btn join-fair-btn">
-                Join Fair Launch
+                Pre-Register Now
               </button>
               <div className="contract-box">
                 <h3>Contract on TON</h3>
