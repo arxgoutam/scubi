@@ -12,7 +12,7 @@
 
 
   @media only screen and (max-width: 600px) {
-    .App div{
+    .App .time-wrapper{
       height: 70px;
       width: 70px;
     }
@@ -20,7 +20,13 @@
       height: 70px;
       width: 70px;
     }
+    .time-wrapper{
+      margin-top: -18px;
+    }
     .time-wrapper .time{
       font-size: 26px;
+    }
+    .time-wrapper div{
+      font-size: 10px;
     }
   }
