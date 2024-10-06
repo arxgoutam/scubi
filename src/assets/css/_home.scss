@@ -91,6 +91,9 @@
       .hero-right {
         img {
           width: 100%;
+          @media only screen and (max-width: 600px) {
+            margin-left: -50px;
+          }
         }
       }
     }
@@ -708,3 +711,10 @@ footer {
     background-position: 500px 1000px, 400px 800px, 0px 300px;
   }
 }
+
+
+
+
+
+
+

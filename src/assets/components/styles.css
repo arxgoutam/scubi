@@ -9,4 +9,18 @@
   .time {
     font-size: 32px;
   }
-  
+
+
+  @media only screen and (max-width: 600px) {
+    .App div{
+      height: 70px;
+      width: 70px;
+    }
+    .App div svg{
+      height: 70px;
+      width: 70px;
+    }
+    .time-wrapper .time{
+      font-size: 26px;
+    }
+  }
