@@ -27,11 +27,10 @@ const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
 const getTimeDays = (time) => (time / daySeconds) | 0;
 
 export default function Timer() {
-  const stratTime = Date.now() / 1000; // current UNIX timestamp in seconds
+  const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
+  const endTime = stratTime + 4.493e+6; // use UNIX timestamp in seconds
 
-  // Set your fixed end date here in the format YYYY-MM-DD HH:MM:SS
-  const fixedEndDate = new Date("2024-12-31 23:59:59").getTime() / 1000; // UNIX timestamp of your fixed end date
-  const remainingTime = fixedEndDate - stratTime;
+  const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);
   const daysDuration = days * daySeconds;
 
