@@ -5,6 +5,9 @@
   // background: url("/images/dot-dot.png");
   background-size: cover;
   background-repeat: no-repeat;
+  @media only screen and (max-width: 600px) {
+    padding: 50px 0 0 0;
+  }
   .container {
     z-index: 100;
     .nav {
@@ -54,6 +57,9 @@
         justify-content: center;
         width: 100%;
       }
+      @media only screen and (max-width: 600px) {
+        padding: 100px 0 0 0;
+      }
       .hero-left {
         .join-fair-btn {
           margin: 30px 0;
@@ -93,6 +99,7 @@
           width: 100%;
           @media only screen and (max-width: 600px) {
             margin-left: -50px;
+            margin-top: 20px;
           }
         }
       }
